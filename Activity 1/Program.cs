@@ -53,7 +53,7 @@
             for (int i = 1; i < n; i++) // for n - 1 passes
             {
                 //pada pass i, bandingkan n - 1 elemen pertama dengan elemen selanjutnya
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < n - i ; j++)
                 {
                     if (a[j] > a[j + 1]) // jika elmen tidak dalam urutan yang benar
                     {
