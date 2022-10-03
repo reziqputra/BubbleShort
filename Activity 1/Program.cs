@@ -66,22 +66,19 @@
                 }
             }
         }
-        static void Main(string[] args)
+        static void Main (string[] args)
         {
-            // crwaring the object of the BubbleSort class
-            Program mylist = new Program();
+            // Creating the object of the Bubblesort class
+            Program myList = new Program();
 
-            //pemanggilan fungsi untuk menerima elemen array
-            mylist.read();
-
-            //pemanggilan fungsi untuk mengurutkan array 
-            mylist.BubbleSortArray();
-
-            //pemanggilan fungsi untuk menampilkan array yang tersusun
-            mylist.display();
-
-            //exit
-            Console.WriteLine("\n\n Tekan tombol apa saja untuk keluar.");
+            // Pemanggilan fingsi untuk menerima elemen array 
+            myList.read();
+            // Pemanggilan fungsi untuk mengurutkan array
+            myList.BubbleSortArray();
+            // Pemanggilan fungsi untuk menampilkan array yang tersusun
+            myList.display();
+            // Exit
+            Console.WriteLine("\n\nTekan Tombol Apa Saja Untuk keluar.");
             Console.Read();
         }
     }
