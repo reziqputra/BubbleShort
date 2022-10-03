@@ -1,5 +1,5 @@
 ﻿namespace Bubble_Sort
-{
+{       //Muhammad Reziq Dwi Putera 20210140146
     class Program
     {
         // Deklarasi array int dengan ukuran 20
